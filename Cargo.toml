@@ -1,0 +1,13 @@
+[package]
+name = "rs-leftist-heap"
+version = "1.0.0"
+edition = "2021"
+description = "Leftist heap with O(log n) mergeable priority queue"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-leftist-heap"
+keywords = ["rust", "leftist-heap", "priority-queue", "data-structures", "algorithms"]
+
+[[bin]]
+name = "rs_leftist_heap"
+path = "main.rs"
